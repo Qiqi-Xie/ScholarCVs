@@ -19,23 +19,5 @@ The main files are:
 - `resume.Rmd`: Source template for single page resume. (Currently neglected compared to CV.)
   - `resume.html`/`strayer_resume.pdf`: Result for single page resume.
 
-## Want to use this to build your own CV/resume? 
-
-I built a package that makes setting up a CV this way rather easy: [`datadrivencv`](http://nickstrayer.me/datadrivencv/).
-
-The easiest way to get going is running these lines in the directory you want to have your CV in: 
-
-```r
-devtools::install_github("nstrayer/datadrivencv")
-
-datadrivencv::use_datadriven_cv(full_name = "My Name")
-```
-
-This should populate your directory with the appropriate files to get started building your CV. Just fill in the internals with your own info. For a more detailed set of examples, see the [packages website](http://nickstrayer.me/datadrivencv/) and [docs](http://nickstrayer.me/datadrivencv/reference/use_datadriven_cv.html). 
-
-
-## Looking for the old version with just a single CSV?
-
-The [blog post I originally wrote about this process](https://livefreeordichotomize.com/2019/09/04/building_a_data_driven_cv_with_r/) used an older version of this document. I think that the new googlesheets method is easier to maintain and extend, however the old version is alive and well [here.](https://github.com/nstrayer/cv/releases/tag/1.0)
 
 
