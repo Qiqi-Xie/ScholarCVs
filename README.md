@@ -12,12 +12,21 @@ The main files are:
 - `citation.R`: Source code to generated `profile.json` and `citation.json`, as well as citation trend figure, `citation.png`.
 
 作者：解琪琪
+
 链接：https://www.jianshu.com/u/bcb81276c29d
+
 来源：简书
+
 参考资料：[datadrivencv包官方说明](http://nickstrayer.me/datadrivencv/)
+
 [nstrayer/datadrivencv](https://github.com/nstrayer/datadrivencv)
+
 [GuangchuangYu/cv](https://github.com/GuangchuangYu/cv)
+
 [质感满满的简历，你也可以有！](https://mp.weixin.qq.com/s/Dz2fa83O_P5QPD8VLR7DRQ)
+
 [怎样使用R语言制作一份高大上的简历](https://www.jianshu.com/p/6739af01d594)
+
 [Pandoc官网](https://pandoc.org/installing.html#macos)
+
 简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
