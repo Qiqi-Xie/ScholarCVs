@@ -191,7 +191,6 @@ Contact {#contact}
 - <i class="fa fa-weixin"></i> lcy505264
 - <i class="fa fa-phone"></i> (86) 15719612948
 - <i class="fa fa-jianshu"></i> https://www.jianshu.com/u/bcb81276c29d
-- <i class="fa fa-yuque"></i> https://www.yuque.com/xieqiqi
 - <i class="fa fa-wolai"></i> https://www.wolai.com/qiqixie
 
 <br>
@@ -207,7 +206,7 @@ hcr_symbol = '<font color="#cc5500"><i class="fa fa-trophy"></i></font>'
 glue(
 
 "
-+ {hcr_symbol} Highly Cited Researcher
++ {hcr_symbol} Researcher
 + Citation = {profile$total_cites}
 + H-index = {profile$h_index}
 + I10-index = {profile$i10_index}
