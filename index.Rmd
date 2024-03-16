@@ -184,14 +184,40 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> jieqq16@lzu.edu.cn
+- <i class="fa fa-envelope"></i> QiqiXie@iu.edu
 - <i class="fa fa-twitter"></i> QiqiXie
 - <i class="fa fa-github"></i> https://github.com/Qiqi-Xie
 - <i class="fa fa-link"></i> https://orcid.org/0000-0003-4099-5287 
 - <i class="fa fa-weixin"></i> lcy505264
 - <i class="fa fa-phone"></i> (86) 15719612948
+- <i class="fa fa-jianshu"></i> https://www.jianshu.com/u/bcb81276c29d
+- <i class="fa fa-yuque"></i> https://www.yuque.com/xieqiqi
+- <i class="fa fa-wolai"></i> https://www.wolai.com/qiqixie
 
+<br>
 
+```{r}
+profile = jsonlite::fromJSON("profile.json")
+cites = jsonlite::fromJSON("citation.json")
+if (profile$total_cites < sum(cites$cites))
+  profile$total_cites <- sum(cites$cites)
+
+hcr_symbol = '<font color="#cc5500"><i class="fa fa-trophy"></i></font>'
+
+glue(
+
+"
++ {hcr_symbol} Highly Cited Researcher
++ Citation = {profile$total_cites}
++ H-index = {profile$h_index}
++ I10-index = {profile$i10_index}
+
+"
+  ) %>% print()
+
+```
+
+![](citation.png)
 
 Main
 ================================================================================
@@ -206,10 +232,9 @@ intro_text <- glue("Bioinformatics Scientist. Data scientist. Biologist. Master 
 cat(sanitize_links(intro_text))
 ```
 
+I received the B.S. degree in Bachelor of Medicine from Nanchang University, City, China, in 2015 and the M.S. degree in Clinical Surgery from Lanzhou University, City, China, in 2019. I am currently undertaking doctoral training at Indiana University Bloomington, specializing in cancer stem cells, and I plan to pursue postdoctoral training in the future. 
 
-I am broadly interested in bone tumor, osteoporosis, osteoarthritis, and neuropathic pain. Fluent in Bioinformatics, NGS analysis, and machine learning.
-
-Currently searching for a PhD position that allows me to do some meaningful research.
+I am broadly interested in gbm, breast cancer, bone tumor, and neuropathic pain. Fluent in Bioinformatics, NGS analysis, scRNA-seq, and machine learning.
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -279,7 +304,7 @@ Professional skills {data-icon=book}
 
 **Wet-lab Experimental**
 
-- I am good at Open-field Test, Water Maze Test, Forced Swimming Test, Von Frey Hair Test, Cold Hot Plate Test, Tereotactic Injection, Immunohistochemistry, Immunofluorescence, Western Blot, RT-PCR, RNAi and Exosome identification.
+- I am good at Immunohistochemistry, Immunofluorescence, Western Blot, RT-PCR, RNAi, Exosome identification, Open-field Test, Water Maze Test, Forced Swimming Test, Von Frey Hair Test, Cold Hot Plate Test, and Tereotactic Injection.
 
 **Experimental instruments**
 
@@ -291,7 +316,7 @@ Professional skills {data-icon=book}
 
 **Statistics**
 
-- I have moderate experience in using R for statistical modeling and data visualization.
+- I have moderate experience in using R and Python for statistical modeling and data visualization.
 
 **Machine learning**
 
@@ -299,7 +324,7 @@ Professional skills {data-icon=book}
 
 **Data analysis**
 
-- I have advanced experience in using R and Shell for data preprocessing, data cleaning and data interpretation.
+- I have advanced experience in using R and Shell for data preprocessing, data cleaning and data interpretation. RNA-seq, ChIP-seq, ATAC-seq, scRNA-seq, scATAC-seq Analysis. Spatial Transcriptomics.
 
 
 Disclaimer {#disclaimer}
