@@ -237,10 +237,11 @@ intro_text <- glue("Bioinformatics Scientist. Data scientist. Biologist. Master 
 cat(sanitize_links(intro_text))
 ```
 
-I received the B.S. degree in Bachelor of Medicine from Nanchang University, City, China, in 2015 and the M.S. degree in Clinical Surgery from Lanzhou University, City, China, in 2019. I am currently undertaking doctoral training at Indiana University Bloomington, specializing in cancer stem cells, and I plan to pursue postdoctoral training in the future. 
+I received the B.S. degree in Bachelor of Medicine from Nanchang University, City, China, in 2015, and the M.S. degree in Clinical Surgery from Lanzhou University, City, China, in 2019, and the Ph.D. degree in Oncology from Lanzhou University, China, in 2023. 
 
-I am broadly interested in gbm, breast cancer, bone tumor, and neuropathic pain. Fluent in Bioinformatics, NGS analysis, scRNA-seq, and machine learning.
+I am currently a Senior Postdoctoral Research Associate at Indiana University Bloomington, focusing on cancer stem cells, NK and CAR NK immunotherapy. 
 
+Fluent in Bioinformatics, NGS analysis, scRNA-seq, and machine learning.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
