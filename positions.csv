@@ -1,5 +1,5 @@
 loc,title,institution,start,end,description_1,description_2,description_3,section,order
-Indiana University Bloomington,Research Associate,"Bloomington, IN 47405",2023,to date,Senior postdoctoral fellow,NA,NA,postdoctoral,1
+Indiana University Bloomington,Research Associate,"Bloomington, IN 47405",2023,to date,Senior postdoctoral fellow,NA,NA,education,1
 Lanzhou University,Ph.D. in Oncology,"Gansu, CN",2019,2022,SUV39H1 Maintains Cancer Stem Cells in Glioblastoma,NA,NA,education,2
 Lanzhou University,Master of Orthopedics,"Gansu, CN",2016,2019,Mechanism of TRPM2-GSK3B Signaling Pathway in Diabetic Osteoporosis,NA,NA,education,3
 Nanchang University,Diploma of Clinical Medicine,"Jiangxi, CN",2010,2015,NA,NA,NA,education,4
@@ -10,8 +10,6 @@ NA,The Third-Prize Scholarship,Lanzhou University,2016,2016,NA,NA,NA,certificate
 NA,The Third-Prize Scholarship,Nanchang University,2014,2014,NA,NA,NA,certificate,NA
 NA,The Second-Prize Scholarship,Nanchang University,2012,2012,NA,NA,NA,certificate,NA
 NA,National College English Competition Encouragement Award,Nanchang University,2011,2011,NA,NA,NA,certificate,NA
-_**npj Precision Oncology**_,[Multi-omics Analysis Identifies Glioblastoma Dependency on H3K9me3 Methyltransferase Activity](),N/A,2024,2024,"Chunying Li, Qiqi Xie, Yuanning Du, Sugata Ghosh, Saranya Rajendran, Aaron A. Cohen-Gadol, José-Manuel Baizabal, Kenneth P. Nephew, Leng Han and Jia Shen","SCI, IF=6.8, JCR Q1",Minor revision,academic_articles,NA
-_**Cancer letters**_,[SUV39H1 Maintains Cancer Stem Cells in Glioblastoma](),N/A,2024,2024,"Qiqi Xie, Yuanning Du, Sugata Ghosh, Saranya Rajendran, Aaron A. Cohen-Gadol, José-Manuel Baizabal, Kenneth P. Nephew, Leng Han and Jia Shen","SCI, IF=9.1, JCR Q1",Major revision,academic_articles,NA
 _**J Cancer Res Clin Oncol**_,[Exploring GZMK as a prognostic marker and predictor of immunotherapy response in breast cancer: unveiling novel insights into treatment outcomes](https://pubmed.ncbi.nlm.nih.gov/38833021/),N/A,2024,2024,"Zitao Li, Qiqi Xie, Fuxing Zhao, Xinfa Huo, Dengfeng Ren, Zhilin Liu, Xiaofeng Zhou, Guoshuang Shen, Jiuda Zhao","SCI, IF=2.7, JCR Q3",NA,academic_articles,NA
 _**Immunology**_,[The correlation between systemic inflammatory markers and efficiency for advanced gastric cancer patients treated with ICIs combined with chemotherapy](https://pubmed.ncbi.nlm.nih.gov/38269606/),N/A,2024,2024,"Dong Q, Zhao F, Li Y, Shen G, Dong Q, Ren D, Wang M, Zhao Y, Liu Z, Ma J, Xie Q, Liu Z, Li Z, Gao L, Zhao J","SCI, IF=4.9, JCR Q2",NA,academic_articles,NA
 _**J Gastroenterol**_,[Correlation between mismatch repair and survival of patients with gastric cancer after 5-FU-based adjuvant chemotherapy](https://pubmed.ncbi.nlm.nih.gov/37036516/),N/A,2023,2023,"Zhao F, Li E, Shen G, Dong Q, Ren D, Wang M, Zhao Y, Liu Z, Ma J, Xie Q, Liu Z, Li Z, Gao L, Zhao J","SCI, IF=6.772, JCR Q1",NA,academic_articles,NA
